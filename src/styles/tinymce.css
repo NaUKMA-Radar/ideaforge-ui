@@ -1,0 +1,71 @@
+/**
+ * Custom styles for TinyMCE editor
+ * 
+ * This CSS file overrides default TinyMCE styles to create a more seamless
+ * integration with our application's design.
+ * 
+ * Key modifications:
+ * - Removes borders and default backgrounds
+ * - Hides the menu bar and branding
+ * - Sets text color to white for better visibility on dark backgrounds
+ * - Applies backdrop filter for a modern, translucent look
+ */
+
+.tox-tinymce {
+  border: none !important;
+}
+
+.tox-menubar {
+  display: none !important;
+}
+
+.tox-tbtn {
+  background-color: transparent !important;
+}
+
+.tox-toolbar__overflow {
+  background-color: transparent !important;
+  backdrop-filter: blur(40px);
+}
+
+.tox-editor-header {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.tox-menubar {
+  background-color: transparent !important;
+}
+
+.tox-toolbar-overlord {
+  background-color: transparent !important;
+}
+
+.tox-toolbar__primary {
+  background-color: transparent !important;
+}
+
+.tox-sidebar-wrap {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.tox-edit-area {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.tox-edit-area__iframe {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.tox-statusbar {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.tox-statusbar__branding {
+  display: none !important;
+}

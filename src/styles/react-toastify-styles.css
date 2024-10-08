@@ -1,0 +1,14 @@
+/* 
+    Custom styles for Toastify notifications.
+    - Adjusts the default toast width and icon size.
+    - These styles override the default Toastify variables to ensure consistent appearance across the app.
+*/
+
+
+:root {
+    --toastify-toast-width: 441px !important;
+}
+
+.Toastify__toast-icon {
+    width: 49px;
+}
